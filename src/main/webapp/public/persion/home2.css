@@ -1,0 +1,39 @@
+#myips_content {
+	CLEAR: both; MARGIN: 0px auto; WIDTH: 950px
+}
+#left {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #e5e5e5 1px solid; PADDING-LEFT: 1px; FLOAT: left; PADDING-BOTTOM: 1px; BORDER-LEFT: #e5e5e5 1px solid; WIDTH: 185px; PADDING-TOP: 1px; BORDER-BOTTOM: #e5e5e5 1px solid; HEIGHT: 320px
+}
+#left UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#left LI {
+	BORDER-TOP: #e5e5e5 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 14px; PADDING-TOP: 1px; HEIGHT: 26px
+}
+#left LI A {
+	DISPLAY: block; PADDING-LEFT: 25px; BACKGROUND: url(../images/myips_login_in_05.gif) no-repeat; COLOR: #000; PADDING-TOP: 5px; HEIGHT: 22px
+}
+#left LI A:hover {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/myips_login_in_04.gif) no-repeat; COLOR: #000; PADDING-TOP: 5px; HEIGHT: 22px; TEXT-DECORATION: none
+}
+#left LI A.selected {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/myips_login_in_04.gif) no-repeat; COLOR: #000; PADDING-TOP: 5px; HEIGHT: 22px; TEXT-DECORATION: none
+}
+#left H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-SIZE: 14px; BACKGROUND: url(../images/myips_login_in_03.gif) repeat-x; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 15px; FONT-FAMILY: arial; HEIGHT: 33px
+}
+#left .m2 {
+	PADDING-LEFT: 25px; FONT-SIZE: 12px; MARGIN: 0px; PADDING-TOP: 10px; HEIGHT: 20px
+}
+#left .m2 A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#left .m2 A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; COLOR: #3d82c3; PADDING-TOP: 0px
+}
+.modalBackground {
+	FILTER: alpha(opacity=70); BACKGROUND-COLOR: gray; opacity: 0.7
+}
+.modalPopup {
+	BORDER-RIGHT: gray 3px solid; PADDING-RIGHT: 3px; BORDER-TOP: gray 3px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: gray 3px solid; WIDTH: 250px; PADDING-TOP: 3px; BORDER-BOTTOM: gray 3px solid; BACKGROUND-COLOR: #ffffdd
+}

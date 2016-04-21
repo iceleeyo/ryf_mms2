@@ -1,0 +1,57 @@
+<paytradeReq xmlns="http://www.chinaebi.com/Paytrade" issueInstant="2012-09-17T11:34:21.420+08:00">
+  <tradeType>123456</tradeType>
+  <outCard>5187188101648431</outCard>
+  <outCardType>C</outCardType>
+  <amount currency="RMB">1200</amount>
+  <trace>999999</trace>
+  <reference>123456789012</reference>
+  <paytime>2012-09-17T11:34:20.686+08:00</paytime>
+  <inCard>622632189027865234</inCard>
+  <inCardName encoding="UTF-8" lang="CN">???</inCardName>
+  <inCardBankId>04082900</inCardBankId>
+  <displayHints encoding="UTF-8" lang="CN">????</displayHints>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>nQWYznXm/wXbXHYapeb5yNmNIHU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LIrah5AiQjboLUGLJhruXHmdC3f9PdNxNpIs6oIwZxYz1RvsD1qaDbtLF8MkZCNHv+5yv7K7vf5/
+AJPWK977aVkiFm0En0cKISpbHdrTe07rr0xiHrZe1jpr8jZ1njVgoEBnCPHHEmuFt23Sk7cS37SX
+iFwyzH+W9qWVsGmxLL0=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIICHTCCAYagAwIBAgIEShjdNzANBgkqhkiG9w0BAQUFADBTMQswCQYDVQQGEwJDTjEaMBgGA1UE
+ChMRU2hhbmdoYWkgQ2FyZGluZm8xGTAXBgNVBAsTEEVuZ2luZWVyaW5nIFRlc3QxDTALBgNVBAMT
+BFRlc3QwHhcNMDkwNTI0MDUzNzU5WhcNMTkwNTIyMDUzNzU5WjBTMQswCQYDVQQGEwJDTjEaMBgG
+A1UEChMRU2hhbmdoYWkgQ2FyZGluZm8xGTAXBgNVBAsTEEVuZ2luZWVyaW5nIFRlc3QxDTALBgNV
+BAMTBFRlc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMQjl990gSecUvmFczKCsfwhSscJ
+n7b3hcNlTkS/Q/g9UnATUIG3w/mQitu3uJLqiBuGf7u5E1hMIRaImFlrato355umRd2VoaNgX4Af
+ogBo/dquDwsvq1IESWoB5UdkDGATMyclv/uAkh4/kRjULxa8I9ltaD37VUoepptA9kDbAgMBAAEw
+DQYJKoZIhvcNAQEFBQADgYEAf5h3C6nrM+l4SSxX6gdA2/fUUNznw9QEUvNBKk8tQr+nMDFl6TBN
+rVk8aX0puKpJ0+7LvVGOce/dXv52uv9HztdqtYUINpmZUlprujka6wEQ06WLbscLXkgk4zfwhO5Y
+auqtb6xijs+D+Ye8/sAagod3e7nnU4oTE8s55fOxJ5k=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xCOX33SBJ5xS+YVzMoKx/CFKxwmftveFw2VORL9D+D1ScBNQgbfD+ZCK27e4kuqIG4Z/u7kTWEwh
+FoiYWWtq2jfnm6ZF3ZWho2BfgB+iAGj92q4PCy+rUgRJagHlR2QMYBMzJyW/+4CSHj+RGNQvFrwj
+2W1oPftVSh6mm0D2QNs=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature></paytradeReq>

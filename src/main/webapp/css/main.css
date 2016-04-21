@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#leftArea {
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    clear: both;
+    position: relative;
+	background-color:#EBEBEB; 
+	width:210px;
+	height:575px;
+	margin-left:40px; 
+	margin-top:2px; 
+	margin-right:0px;
+}
+#leftmenu p {
+    text-align:left;
+    font-size:14px;
+    border-color:#CCC;
+    border-bottom: 1px dotted #B2B2B2;
+}
+#leftmenu {
+	margin-left:7px;
+	position:absolute; 
+	left: 28px;
+	top: 39px;
+}
+#leftTitle {
+	font-size:16px; 
+	margin-left:18px;
+}
+#topArea {
+    background-color:#E3ECF6;
+	background-repeat:no-repeat;
+	background-position:left;
+	height:120px; 
+	width:1068px; 
+	margin-left:40px; 
+	margin-right:20px;
+}
+#topArea p {
+    width:auto;
+	float: inherit;
+}
+#topArea span {
+    text-align: center;
+	font-size:36px;
+	font-family: 'Courier New', Courier, monospace; 
+	position: absolute; 
+	left: 462px; 
+	top: 51px;
+}
+#topmenu {
+	position:absolute;
+	margin-left: 253px;
+	top: 139px;
+	width:854px;
+	height:26px;
+}
+#topmenu tr {
+    background-color:#CCC; 
+	text-align:center; 
+	background-image:url(../images/menu_bg_1.gif);
+}
+#topMenuTable tr td{
+	border:1px solid #AAAAE0;
+    font-size:12px;
+	bordercolorlight:#999999;
+	bordercolor:#999999;
+}
+#topMenuTable {
+	border:1px solid #AAAAE0;
+}
+#rightArea {
+    margin-left:282px;
+	margin-top:0px; 
+	padding-top:0px;
+	width:853px; 
+	height:555px; 
+	position:absolute; 
+	left: -20px; 
+	top: 160px; 
+	background-color:#F0F0F0;
+}
+#queryPanelTable tr td{
+	font-size:12px;
+}
+
+#detailResultList {
+	border:1px solid #AAAAE0;
+}
+
+#detailResultList tr td{
+	align: center;
+}
+
+

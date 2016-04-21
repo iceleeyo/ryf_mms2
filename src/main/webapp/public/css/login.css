@@ -1,0 +1,72 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: #caced1;
+    font: 80% / 1.5em Verdana, Tahoma, arial, sans-serif;
+    color: #777;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#wrap {
+	width: 955px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	clear: both;
+}
+
+#content-wrap {
+	width: 925px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	clear: both;
+	position: relative;
+	margin: 0;
+}
+
+#data {
+	background-color: #F4F8FD;
+	width: 535px;
+	border: 1px solid #E5F0FB;
+	margin-top: 95px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 2px;
+	margin-left: 0;
+}
+
+.login-font {
+	color: #159de3;
+	FONT-FAMILY: "微软雅黑", "宋体", Tahoma, Arial;
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	left: 0px;
+	top: -28px;
+	right: 30px;
+	bottom: 0px;
+}
+
+.welcome-font {
+	color: #05326a;
+	font-family: "微软雅黑", "宋体", Tahoma, Arial;
+	font-size: 13px;
+}
+	
+

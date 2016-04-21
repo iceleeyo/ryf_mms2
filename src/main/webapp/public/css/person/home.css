@@ -1,0 +1,214 @@
+body {margin:auto;}
+h1{font-size:14px;padding:0px;}
+td{font-size:12px;font-family:Arial, Helvetica, sans-serif,宋体;color:#575757;word-break:break-all;}
+a{color:#575757;text-decoration:none}
+a:hover{color:#3D82C3;text-decoration:underline;}
+.a02:hover{color:#1a1a1a;text-decoration:none}
+.a02{color:#3D82C3;text-decoration:underline;}
+.a01:hover{color:#3D82C3;text-decoration: none;}
+.a01{color:#313131;text-decoration:none;}
+.fontblack{ color:#000}
+.font12{font-size:12px;}
+.font14{font-size:14px;}
+.fontblue{color:#0083B3}
+.fontred{color:red;}
+.fontgray{color:#575757}
+.textgray{color:#999999}
+.font_orange{color:#ff6600}
+.fontgreen{color:#090}
+.lh25{line-height:25px;}
+.lh20{line-height:20px;}
+.textright{text-align:right;}
+.textcenter{text-align:center;}
+#w25{width:25%}
+#w28{width:32%}
+img{vertical-align:middle;}
+input[type="text"],textarea{font-size:12px;font-family:arial;border:1px solid #51698b;}
+
+h2{font-size:14px;color:#ff6600;margin:0px;}
+h3{font-size:14px;border-bottom:2px solid #ccc;padding-bottom:8px;margin:0px 0px 20px 0px;}
+
+div{margin:0px;padding:0px;font-size:12px;font-family:宋体,arial;}
+ul,ol,span{padding:0px;margin:0px;list-style:none;}
+p{padding:0px;margin:0px;}
+#top{width:950px;margin:0 auto;}
+#top li{float:left;width:50%;}
+#top li p{padding-top:15px;margin:0px;}
+#top_menu{clear:both;width:100%;height:36px;background:url(../../../images/person/myips_login_in_01.gif) repeat-x;border-bottom:2px solid #FFB300;margin-bottom:15px;}
+#top_menu ul{width:1000px;margin:0 auto;}
+#top_menu ul li{float:left;width:111px;margin-left:30px;text-align:center;}
+#top_menu ul li a{font-size:14px;color:#fff;font-weight:bold;display:block;padding-top:13px;}
+#top_menu ul li a:hover{background:url(../../../images/person/myips_login_in_02.gif) no-repeat;height:23px;text-decoration: none;}
+#top_menu ul li .selected{background:url(../../../images/person/myips_login_in_02.gif) no-repeat;height:23px;text-decoration: none;}
+
+#myips_content{clear:both;width:950px;margin:0 auto;}
+#left{float:left;width:185px;border:1px solid #E5E5E5;padding:1px;height:320px;}
+#left li{border-top:1px solid #E5E5E5;height:26px;font-size:14px;padding-top:1px;padding-left:1px;}
+#left li a{display:block;background:url(../../../images/person/myips_login_in_05.gif) no-repeat;padding-left:25px;height:22px;padding-top:5px;color:#000;}
+#left li a:hover{background:url(../../../images/person/myips_login_in_04.gif) no-repeat;padding-left:25px;height:22px;padding-top:5px;color:#000;text-decoration:none}
+#left li a.selected{background:url(../../../images/person/myips_login_in_04.gif) no-repeat;padding-left:25px;height:22px;padding-top:5px;color:#000;text-decoration:none}
+#left h1{background:url(../../../images/person/myips_login_in_03.gif) repeat-x;height:33px;margin:0px;padding:0px;font-size:14px;font-family:arial;
+					padding-top:15px;padding-left:10px;}
+#left .m2{margin:0px;padding-left:25px;height:20px;padding-top:10px;font-size:12px;}	
+#left .m2 a{background:#fff;padding:0px;}
+#left .m2 a:hover{background:#fff;padding:0px;color:#3D82C3;}
+	
+			
+#right{float:right;width:740px; overflow:hidden;}
+#right_top{width:740px;}
+
+#zhxx{float:left;width:450px;font-size:14px;font-family:arial;}
+#zhxx li{height:30px;}
+.zhxx_1{float:left;width:140px;text-align:right;}
+.zhxx_2{float:left;width:250px;}
+#zhxx h1{font-size:14px;border-bottom:2px solid #ccc;padding-bottom:5px;}
+
+#zhts{color:#444;float:right;width:230px;border:1px solid #ccc;padding:5px;background:url(../../../images/person/myips_login_in_03.gif) repeat-x;}
+#zhts h1{font-size:12px;color:#0083B6;height:20px;padding-top:10px;margin:0px;}
+#zhts li{padding-top:5px;list-style-type:none;}
+#zhtss{color:#444;float:right;width:245px;border:0px solid #ededed;}
+#zhtss h1{font-size:12px;color:#0083B6;height:20px;padding-top:3px;margin:0px;}
+#zhtss li{padding-top:3px;}
+.clear{clear:both; height:1px; margin-top:-1px; overflow:hidden;}
+
+.table{border:2px solid #C1D3DA;border-collapse:collapse; background:url(../../../images/person/logo-bg.gif); color:#000; font-size:12px;}
+.table td{border: 1px solid #C1D3DA;padding:5px; color:#000}
+.table th{ border: 0px solid #C1D3DA; color:#000;}
+
+.table01{border:1px solid #C1D3DA;border-collapse:collapse;}
+.table01 th{font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica,
+sans-serif;
+color: #0083B6;
+border: 1px solid #C1D3DA;
+letter-spacing: 1px;
+text-align: center;
+height:28px;background:url(../../../images/person/myips_login_in_06.gif) no-repeat 1px 1px;}
+.table01 td{border: 1px solid #C1D3DA;padding:5px;font-size:14px;}
+.tr01{background:#ECF7FF;}
+
+.table02{border:1px solid #C1D3DA;border-collapse:collapse;}
+.table02 th{font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica,
+sans-serif;
+color: #0083B6;
+border: 1px solid #C1D3DA;
+letter-spacing: 1px;
+text-align: center;font-weight:normal;
+height:28px;background:url(../../../images/person/myips_login_in_06.gif) no-repeat 1px 1px;}
+.table02 td{border: 1px solid #C1D3DA;padding:2px;height:25px;}
+
+#foot{clear:both;width:950px;border-top:3px solid #575757;margin:0 auto;}
+#foot li{padding-top:10px;text-align:center;color:#575757;}
+#foot_zhx{clear:both;width:950px;border-top:3px solid #575757;margin:0 auto;}
+#foot_zhx li{font-family:arial;float:left;padding-top:10px;color:#575757;width:50%;}
+
+#TabContent,#bank{font-size:14px;width:730px;clear:both;}
+#TabContent p{clear:both;width:750px;height:20px;padding-top:10px;padding-bottom:5px;}
+#TabContent p label{width:120px;text-align:right;float:left;padding-left:20px;}
+.ts01{padding:2px 10px 15px 30px;font-size:12px;color:#575757;background:url(../../../images/person/icon_008.gif) no-repeat 5px 0px;}
+.ts02{line-height:20px;font-size:12px;color:#575757;}
+.ts03{clear:both;font-size:12px;line-height:20px;color:#575757;width:100%;padding-top:5px;}
+.ts04{clear:both;font-size:12px;line-height:20px;color:#575757;border:1px solid #F96206;background:#FFF3D2;padding:5px}
+.ts05{clear:both;font-size:12px;line-height:20px;color:#575757;border:1px solid #F96206;background:#FFF3D2;padding:5px; width:180px}
+
+#TabContent span{weight:auto;dispaly:block;}
+#TabContent p .Result{float:left;}
+#bank_list ul{width:550px;clear:both;}
+#bank_list ul li{float:left;width:170px;height:35px;}
+.Result02{display:block;width:auto;}
+#bank{padding-top:10px;}
+#bank li{float:left;}
+.btn01{background:url(../../../images/person/icon_004.gif) no-repeat;width:90px;height:28px;font-size:14px;font-weight:bold;border:0px;text-align:center;}
+.btn02{background:url(../../../images/person/icon_005.gif) no-repeat;width:128px;height:42px;color:#fff;font-size:14px;font-weight:bold;border:0px;text-align:center;}
+.btn03{background:url(../../../images/person/icon_006.gif) repeat-x;border:1px solid #64ABFF;height:31px;font-size:14px;font-weight:bold;}
+.btn04{background:url(../../../images/person/btn_n01.gif) no-repeat;border:0px;height:22px;width:49px;font-size:12px;color:#fff;}
+.TrdDpPre_IB span{width:600px;display:block;height:50px}
+
+.TabContent_WtApply{clear:both;width:710px;font-size:14px;}
+.TabContent_WtApply ul{clear:both;line-height:25px;padding-top:5px;}
+.TabContent_WtApply li{float:left;}
+.TabContent_WtApply .TabContent_WtApply_left{width:150px;text-align:right;}
+.TabContent_WtApply .TabContent_WtApply_right{width:550px;}
+
+.TabContent_WtApply_sky{clear:both;width:740px;font-size:14px;}
+.TabContent_WtApply_sky ul{clear:both;line-height:25px;padding-top:5px;}
+.TabContent_WtApply_sky li{float:left;}
+.TabContent_WtApply_sky .TabContent_WtApply_left{width:150px;text-align:right;}
+.TabContent_WtApply_sky .TabContent_WtApply_right{width:580px;}
+
+.TabContent_WtApply_ok,.TabContent_WtApply_error,#xxts{width:600px;margin:0 auto;border:1px solid #ccc;padding:20px;background:url(../../../images/person/myips_login_in_03.gif) repeat-x;}
+.TabContent_WtApply_ok02.TabContent_WtApply_error02{width:600px;margin:0 auto;padding:20px;;}
+.TabContent_WtApply_ok li,.TabContent_WtApply_error li,#xxts li,.TabContent_WtApply_ok02 li,.TabContent_WtApply_error02 li{font-size:14px;height:35px;padding-left:90px;}
+.TabContent_WtApply_ok h1,.TabContent_WtApply_ok02 h1{background:url(../../../images/person/icon_007.gif) no-repeat;font-size:14px;line-height:30px;height:60px;padding-left:90px;padding-top:20px;}
+.TabContent_WtApply_error h1,.TabContent_WtApply_error02 h1{background:url(../../../images/person/icon_009.gif) no-repeat;font-size:14px;line-height:30px;height:90px;padding-left:100px;padding-top:20px;}
+#xxts h1{background:url(../../../images/person/icon_010.gif) no-repeat;font-size:14px;line-height:80px;height:90px;padding-left:90px;}
+
+#smxx{width:640px;height:200px;margin:0 auto;border:1px solid #ccc;padding:20px;background:url(../../../images/person/myips_login_in_03.gif) repeat-x;}
+#smxx li{float:left;padding-top:20px;}
+.smxx_img{width:150px;}
+
+#query{width:730px;margin:0 auto;}
+#query ul{clear:both;padding-top:10px;}
+#query li{float:left;margin-right:20px;width:325px;}
+.fieldset01{border:1px solid #ccc;padding:10px;text-align:center;font-size:14px;}
+.fieldset01 legend{font-size:14px;padding-left:5px;font-family:arial;color:#ff6600;font-weight:bold;}
+.fieldset01 p{line-height:80px;} 
+
+.query_mx{width:950px;font-size:14px;}
+.query_mx li{float:left;}
+.query_mx ul{clear:both;padding-top:5px;}
+.query_mx_left{width:150px;text-align:right;padding-top:5px;}
+
+#Account_set{width:700px;margin:0 auto;}
+.fieldset02{border:1px solid #ccc;padding:10px;font-size:14px;}
+.fieldset02 legend{font-size:14px;padding-left:5px;font-family:arial;color:#ff6600;font-weight:bold;}
+.fieldset02 p{line-height:80px;}
+
+#account_set_info ul{clear:both;}
+#account_set_info li{float:left;font-size:14px;height:30px;} 
+.left_w150{width:150px;text-align:right;padding-right:5px;}
+
+#Login_left,#Login_left_zhx{float:left;width:250px;border:1px solid #ccc;padding:1px;height:320px;background:url(../../../images/person/myips_login_in_03.gif) repeat-x;}
+#Login_left ul,#Login_left_zhx ul{clear:both;font-size:14px;font-family:arial;width:230px;margin:0 auto;}
+#Login_left ul li,#Login_left_zhx ul li{float:left;padding-top:15px;}
+#login_right{float:right;width:660px;}
+#login_right p{line-height:20px;padding-top:10px;}
+
+#login_wh{width:600px;padding:15px 10px 15px 10px;font-size:14px;border:1px solid #FF7B0A;background:#FFF1BA;line-height:25px;margin-bottom:20px;}
+
+#register li{float:left;width:47%;margin-right:2%}
+#choose li{float:left;width:96%;margin-right:2%}
+#mobile_register{clear:both;width:800px;}
+#mobile_register li{float:left;width:175px;height:20px;background:url(../../../images/person/icon_013.gif) no-repeat;text-align:center;padding-top:12px;margin-left:10px;color:#575757;}
+#mobile_register .mr02{background:url(../../../images/person/icon_014.gif) no-repeat;color:#003467;font-size:14px;font-weight:bold;padding-top:12px;}
+#mobile_register_02{dispaly:block;clear:both;width:880px;padding:10px 10px 10px 40px;border:1px solid #666;}
+
+.fieldset03{border:1px solid #ccc;padding:10px;font-size:14px;line-height:30px;}
+.fieldset03 legend{font-size:14px;padding-left:5px;font-family:arial;color:#ff6600;font-weight:bold;}
+
+
+#query_n{width:930px;margin:0 auto;}
+#query_n ul{clear:both;padding-top:10px;}
+#query_n li{float:left;margin-right:20px;}
+
+#wyfk{clear:both;width:480px;margin:0 auto;border:0px;}
+#wyfk ul{padding-top:5px;}
+#wyfk li{line-height:20px;}
+#wyfk .w25{width:100px;text-align:right;}
+
+.czxx{width:380px;margin:0px auto;}
+.czxx_img{float:left;width:80px;}
+.czxx_text{float:left;width:300px;}
+
+.TabContent{font-size:14px;width:730px;clear:both;}
+.TabContent p{clear:both;width:700px;height:20px;padding-top:10px;padding-bottom:5px;}
+.TabContent p label{width:120px;text-align:right;float:left;padding-left:20px;}
+.note{font-size:12px;font-family:宋体,arial;}
+
+.wr_ys{width:100%;clear:both;}
+.wr_ys li{padding-left:0px;}
+.wr_ys_l {float:left;width:180px;text-align:right;padding:0px;}
+.wr_ys_r{float:left;width:380px;text-align:left;padding:0px;}
+
+/*网站提示*/
+.myips_notice{clear:both; margin:-10px auto 5px auto;font-size:12px;line-height:20px;color:#575757;border:1px solid #F96206;background:#FFF3D2;padding:2px; width:950px;}
+.myips_notice .notice_txt{padding:5px 0 0 20px; background-image:url(../../../images/person/notice_icone.gif); background-repeat:no-repeat; background-position:left  }

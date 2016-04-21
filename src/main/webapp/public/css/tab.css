@@ -1,0 +1,26 @@
+.usual {
+	WIDTH: auto;height:auto; PADDING-BOTTOM: 10px;  PADDING-LEFT: 10px;  PADDING-RIGHT: 10px;  COLOR: #111; PADDING-TOP: 5px
+}
+.usual LI {
+	LIST-STYLE-TYPE: none; FLOAT: left; LIST-STYLE-IMAGE: none
+}
+.usual UL A {
+	PADDING-BOTTOM: 6px; MARGIN: 1px 1px 1px 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; FONT: 12px Verdana; BACKGROUND: #2B8AD0; COLOR: #fff; TEXT-DECORATION: none !important; PADDING-TOP: 6px
+}
+
+.usual UL A.selected {
+	BORDER-BOTTOM: #f2f0f0 1px solid; MARGIN-BOTTOM: 0px; BACKGROUND: #f2f0f0; COLOR: #000; CURSOR: default;font-weight:bold;
+}
+.usual div {
+	WIDTH: 98%;height:10%; background-color: #f2f0f0; CLEAR: left; 
+}
+ .usual div table{
+	 font-size: 12px ;
+	 padding-top: 20px;
+	  background-color: #f2f0f0;
+ }
+  .usual div table td{
+	 height:30px;
+ }
+a{blr:expression(this.onFocus=this.blur());} /**IE下**/ 
+a:focus{outline:none;} /**FF下**/

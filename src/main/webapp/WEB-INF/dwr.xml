@@ -1,0 +1,471 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://directwebremoting.org/schema/dwr30.dtd">
+
+<dwr>
+	<allow>
+	
+		<create javascript="RegisterService" creator="new">
+            <param name="class" value="com.rongyifu.person.RegisterService">
+            </param>
+              <include method="doPhonePay"/>
+              <include method="confirm"/>
+              <include method="checkTelIn"/>
+              <include method="registerSuccess"/>
+        </create>
+        
+	    <!-- <filter class="net.rypay.filter.DwrAjaxFilter"/> -->
+		<!-- 登录service -->
+		<create javascript="LoginService" creator="new">
+		   <param name="class" value="com.rongyifu.mms.service.LoginService"></param>
+		   <include method="adminLogin"/>
+		   <include method="merUserLogin"/>
+		   <include method="updatePwd"/>
+		   <include method="cusUserLogin"/>
+		   <include method="doCheckAddr"/>
+		   <include method="validateToken"/>
+		</create>
+		
+		<!-- 页面查询对象 -->
+		<create javascript="PageService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.PageService">
+            </param>
+        </create>
+          <!--交易管理对象 -->
+       <!-- -->
+        <create javascript="TransactionService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.TransactionService"></param>
+        </create>
+        
+           <!-- 商户交易管理对象 -->
+        <create javascript="MerTransactionService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.MerTransactionService"></param>
+        </create>
+        
+        
+        <!--公共页面-->
+        <create javascript="RypCommon" creator="new">
+            <param name="class" value="com.rongyifu.mms.common.RypCommon"></param>
+        </create>
+        
+         <!--管理员对商户管理-->
+        <create javascript="MerchantService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.MerchantService">
+            </param>
+        </create>
+        
+         <!--结算管理-->
+        <create javascript="LiqService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.liqmanage.service.LiqService">
+            </param>
+        </create>
+        
+         <!--商户管理-->
+        <create javascript="MerMerchantService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.MerMerchantService"></param>
+        </create>
+
+        
+        
+         <!-- 结算管理模块页面对象 -->
+        <create javascript="SettlementService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.SettlementService"></param>
+        </create>
+        
+         <!-- 商户结算管理模块页面对象 -->
+        <create javascript="MerSettlementService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.MerSettlementService">
+            </param>
+        </create>
+        
+         <!--对账模块-->
+         <create javascript="DoSettlementService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.DoSettlementService">
+            </param>
+            <include method="byUploadFileSettle"/>
+            <include method="byUploadFileSettleXLS"/>
+            <include method="byUploadZWFileSettle"/>
+            <include method="byBKInterfaceSettle"/>
+            <include method="queryRefundLogById"/>
+            <include method="checkBkNo"/>
+            <include method="vasSettle"/>
+         </create>
+           <!--对账模块-->
+         <create javascript="DownloadFileService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.DownloadFileService">
+            </param>
+            <include method="downloadTXTFile"/>
+            <include method="downloadXLSFile"/>
+         </create>
+         
+         <create javascript="CommonService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.CommonService">
+            </param>
+         </create>
+         
+          <!-- 退款管理模块页面对-->
+        <create javascript="RefundmentService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.RefundmentService"></param>
+        </create>
+        
+        <!-- 商户退款管理模块页面对-->
+         <create javascript="MerRefundmentService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.MerRefundmentService"></param>
+         </create>
+         
+          <!-- 风险管理模块页面对象 -->
+        <create javascript="RiskmanageService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.RiskmanageService"></param>    
+        </create>
+		 <!-- 系统管理页面对象 -->
+		<create javascript="SysManageService" creator="new">
+           <param name="class" value="com.rongyifu.mms.service.SysManageService"></param>
+        </create>
+         <!-- 自动结算 -->
+		<create javascript="AutoSettlementService" creator="new">
+		  <param name="class" value="com.rongyifu.mms.service.AutoSettlementService"></param>
+		</create>
+		
+		<!-- admin个人账户 -->
+		<create javascript="AdminZHService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.AdminZHService"></param>
+            
+        </create>
+		<!-- mer个人账户 -->
+		<create javascript="MerZHService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.MerZHService"></param>
+        </create>
+        <!-- 企业管理-->
+        <create javascript="CompanyService" creator="new">
+		   <param name="class" value="com.rongyifu.mms.service.CompanyService"></param>
+		</create>
+		<!-- 备付金管理-->
+		<create javascript="PrepPayService" creator="new">
+		   <param name="class" value="com.rongyifu.mms.service.PrepPayService"></param>
+		</create>
+		<!-- ///////////////////////////////////////// -->
+		<create javascript="PageParam" creator="new">
+		<param name="class" value="com.rongyifu.mms.common.PageParam"></param>		
+		</create>
+		
+		
+        <create javascript="MenuService" creator="new">
+            <param name="class" value="com.rongyifu.mms.merchant.MenuService"></param>
+            <include method="queryMMSNotice"/>
+            <include method="getAdminLeftMenu"/>
+            <include method="getMerLeftMenu"/>
+            <include method="getLoginUserFirstMenu"/>
+        </create>
+        
+         <create javascript="DaiFuService" creator="new">
+            <param name="class" value="com.rongyifu.mms.service.DaiFuService"></param>
+        </create>
+
+        <create javascript="DaiKouService" creator="new">
+		    <param name="class" value="com.rongyifu.mms.service.DaiKouService"></param>
+		</create>
+		
+		
+		
+		
+		  <!-- 划款结果查询模块页面对象 -->
+        <create javascript="QuerytransferService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.liqmanage.service.QuerytransferService"></param>
+        </create>
+         <!-- 管理后台当天交易查询模块页面对象 -->
+        <create javascript="QueryMerTodayService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.transaction.service.QueryMerTodayService"></param>
+        </create>
+         <!-- 管理后台历史交易查询模块页面对象 -->
+        <create javascript="QueryMerHlogService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.transaction.service.QueryMerHlogService"></param>
+        </create>
+        
+        <!-- 管理后台退款查询模块页面对象-->
+        <create javascript="QueryRefundService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.transaction.service.QueryRefundService"></param>
+        </create>
+          <!-- 管理后台信用卡支付询模块页面对象 -->
+        <create javascript="QueryCreditCardResultService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.transaction.service.QueryCreditCardResultService"></param>
+        </create>
+        <!-- 商户后台当天交易查询模块页面对象 -->
+        <create javascript="QueryMerMerTodayService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.Mertransaction.service.QueryMerMerTodayService"></param>
+        </create>
+         <!-- 商户后台历史交易查询模块页面对象 -->
+        <create javascript="QueryMerMerHlogDetailService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.Mertransaction.service.QueryMerMerHlogDetailService"></param>
+        </create>
+         <!-- 商户后台退款交易查询模块页面对象-->
+        <create javascript="QueryMerRefundLogsService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.Merrefundmanage.service.QueryMerRefundLogsService"></param>
+        </create>
+        <!-- 管理后台商户风险系数控制模块页面对象 -->
+        <create javascript="MerRiskConService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.mermanage.service.MerRiskConService"></param>
+        </create>      
+         <!-- 管理后台联机退款模块页面对象-->
+        <create javascript="OnlineRefundService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.transaction.service.OnlineRefundService"></param>
+        </create>
+         <!-- 管理后台结算单查询模块页面对象-->
+        <create javascript="SearchFeeLiqBathService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.liqmanage.service.SearchFeeLiqBathService"></param>
+        </create>
+          <!-- 管理后台结算划款结果处理页面对象 -->
+        <create javascript="HKResultHandleService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.liqmanage.service.HKResultHandleService"></param>
+        </create>
+        <!-- 管理后台账户管理下手工同步代付结果对象-->
+        <create javascript="SGSyncDFResultService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.accmanage.service.SGSyncDFResultService"></param>
+        </create>
+         <!-- 管理后台账户管理下自动代付信息维护对象-->
+        <create javascript="AutoDFInfoPreserveService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.accmanage.service.AutoDFInfoPreserveService"></param>
+        </create>
+         <!-- 管理后台结算确认页面对象-->
+        <create javascript="SettlementVerifyService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.liqmanage.service.SettlementVerifyService"></param>
+        </create>
+          <!-- 管理后台结算制表页面对象 -->
+        <create javascript="SettlementTableService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.liqmanage.service.SettlementTableService"></param>
+        </create>
+         <!-- 管理后台交易报表统计查询页面对象 -->
+        <create javascript="QueryTradeStatisticService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.transaction.service.QueryTradeStatisticService"></param>
+        </create>
+        <!-- FTP代付 service  -->
+        <create javascript="SgDfSqService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.accmanage.service.SgDfSqService"></param>
+        </create>
+         <!-- 代付报警配置 service  -->
+        <create javascript="DfSbBjPzService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.accmanage.service.DfSbBjPzService"></param>
+        </create>
+       	<!-- 手工代付审核 service  -->
+        <create javascript="SgDfShService" creator="new">
+            <param name="class" value="com.rongyifu.mms.modules.accmanage.service.SgDfShService"></param>
+        </create>
+        <!-- POs数据同步配置Service -->
+        <create javascript="PosSyncConfig" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.liqmanage.service.PosSyncConfigService"></param>
+       	</create>
+		<!-- admin历史单笔查询  -->
+<!--         <create javascript="QuerySingleLogService" creator="new"> -->
+<!--         	<param name="class" value="com.rongyifu.mms.modules.transaction.service.QuerySingleLogService"></param> -->
+<!--         </create> -->
+		<!-- 商户历史收款明细查询  -->
+<!--         <create javascript="MerQueryHlogService" creator="new"> -->
+<!--         	<param name="class" value="com.rongyifu.mms.modules.Mertransaction.service.MerQueryHlogService"></param> -->
+<!--         </create> -->
+		<!-- 商户历史单笔查询  -->
+<!--         <create javascript="MerQuerySingleLogService" creator="new"> -->
+<!--         	<param name="class" value="com.rongyifu.mms.modules.Mertransaction.service.MerQuerySingleLogService"></param> -->
+<!--         </create> -->
+		<!-- 资金明细查询  -->
+        <create javascript="TrDetailsService" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.liqmanage.service.TrDetailsService"></param>
+        </create>
+		<!-- 监控配置  -->
+        <create javascript="MonitorConfigService" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.sysmanage.service.MonitorConfigService"></param>
+        </create>
+        
+        <create javascript="SgDfQueryService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.accmanage.service.SgDfQueryService"></param>
+        </create>
+        
+        <!-- 我的账户 - 单笔付款到个人银行账户  -->
+        <create javascript="DfB2CSingleService" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.myAccount.service.DfB2CSingleService"></param>
+        </create>
+        <!-- 我的账户 - 单笔付款到企业银行账户  -->
+        <create javascript="DfB2BSingleService" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.myAccount.service.DfB2BSingleService"></param>
+        </create>
+        <!-- 我的账户 - 批量付款到个人银行账户  -->
+        <create javascript="DfB2CBatchService" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.myAccount.service.DfB2CBatchService"></param>
+        </create>
+        <!-- 我的账户 - 批量付款到企业银行账户  -->
+        <create javascript="DfB2BBatchService" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.myAccount.service.DfB2BBatchService"></param>
+        </create>
+        <!-- 我的账户 - 代付确认  -->
+        <create javascript="DfqrService" creator="new">
+        	<param name="class" value="com.rongyifu.mms.modules.myAccount.service.DfqrService"></param>
+        </create>
+        
+        <!-- 银企直连余额查询 -->
+        <create creator="new" javascript="BalanceQueryService">
+        	<param name="class" value="com.rongyifu.mms.modules.sysmanage.service.BalanceQueryService"></param>
+        </create>
+        <!-- 银企直连网关维护页面 -->
+        <create creator="new" javascript="YQGateService">
+        	<param name="class" value="com.rongyifu.mms.modules.sysmanage.service.YQGateService"></param>
+        </create>
+		<!-- 代付网关维护 -->
+         <create javascript="DfGateRouteService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.sysmanage.service.DfGateRouteService"></param>
+        </create>
+		<!-- 代付交易查询 代付结果同步-->
+        <create javascript="DfService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.transaction.service.DfService"></param>
+        </create>
+		<!-- 联行号维护 -->
+        <create javascript="BankInfoService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.sysmanage.service.BankInfoService"></param>
+        </create>
+		<!-- 手动导入订单信息 -->
+        <create javascript="UploadHlogService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.transaction.service.UploadHlogService"></param>
+        </create>
+		<!-- 查询pos当天交易 -->
+        <create javascript="QueryPosMerTodayService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.Mertransaction.service.QueryPosMerTodayService"></param>
+        </create>
+		<!-- 动态令牌管理-->
+        <create javascript="TokenManagementService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.merchant.service.TokenManagementService"></param>
+        </create>
+        <!-- 系统用户登录分析-->
+        <create javascript="UserLoginAnalysisService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.mermanage.service.UserLoginAnalysisService"></param>
+        </create>
+        <!-- 系统重要模块统计-->
+        <create javascript="SystemModuleStatisticsService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.mermanage.service.SystemModuleStatisticsService"></param>
+        </create>
+        <!-- 防伪信息设置-->
+        <create javascript="AntiPhishingService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.mermanage.service.AntiPhishingService"></param>
+        </create>
+        
+        <create javascript="QkRiskService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.accmanage.service.QkRiskService"></param>
+        </create>
+        <!-- 商户证书管理 -->
+        <create javascript="CertManagerService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.merchant.service.CertManagerService"></param>
+        </create>
+        
+        <!-- 商户结算单推送 -->
+        <create javascript="SettlementNoticeService" creator="new" >
+        	<param name="class" value="com.rongyifu.mms.modules.liqmanage.service.SettlementNoticeService"></param>
+        </create>
+        
+        <!-- DWR 实现的分页page -->
+        <convert match="com.rongyifu.mms.utils.CurrentPage" converter="bean"></convert> 
+        <convert match="com.rongyifu.mms.bean.Tlog" converter="bean"></convert>  
+        <convert match="com.rongyifu.mms.bean.Account" converter="bean"></convert>  
+        <convert match="com.rongyifu.mms.bean.AdjustAccount" converter="bean"></convert>  
+        <convert match="com.rongyifu.mms.bean.Gate" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.Hlog" converter="bean"></convert> 
+        <convert match="com.rongyifu.mms.bean.Elog" converter="bean"></convert>      
+        <convert match="com.rongyifu.mms.bean.TlogCollect" converter="bean"></convert>   
+        <convert match="com.rongyifu.mms.bean.RefundLog" converter="bean"></convert> 
+        <convert match="com.rongyifu.mms.bean.CardAuth" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.Minfo" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.MinfoH" converter="bean"></convert>     
+        <convert match="com.rongyifu.mms.bean.FeeLiqLog" converter="bean"></convert>     
+        <convert match="com.rongyifu.mms.bean.OperInfo" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.AuthInfo" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.OperLog" converter="bean"></convert>  
+        <convert match="com.rongyifu.mms.bean.InCome" converter="bean"></convert>  
+        <convert match="com.rongyifu.mms.bean.BatchB2B" converter="bean"></convert> 
+        <convert match="com.rongyifu.mms.bean.NewGate" converter="bean"></convert>
+         <!--
+        <convert match="com.rongyifu.mms.bean.GateRoute" converter="bean"></convert>
+         -->
+        <convert match="com.rongyifu.mms.bean.FeeLiqBath" converter="bean"></convert>  
+        <convert match="com.rongyifu.mms.bean.DailySheet" converter="bean"></convert>  
+        <convert match="com.rongyifu.mms.bean.GlobalParams" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.MMSNotice" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.SettleDetail" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.ErrorAnalysis" converter="bean"></convert>
+		<convert match="com.rongyifu.mms.bean.FeeCalcMode" converter="bean" ></convert>
+        <convert match="com.rongyifu.mms.bean.RefundOB" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.RealTran" converter="bean"></convert>
+
+        <convert match="com.rongyifu.mms.bean.MergeDetail" converter="bean"></convert>
+                     
+        <convert match="com.rongyifu.mms.bean.RiskLog" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.RiskBean" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.Mlog" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.RYTGate" converter="bean"></convert> 
+        <convert match="com.rongyifu.mms.bean.SettleResultBean" converter="bean"></convert> 
+        <convert match="com.rongyifu.mms.bean.SettleMinfo" converter="bean"></convert> 
+        <convert match="com.rongyifu.mms.bean.SettleHlog" converter="bean"></convert> 
+
+        <convert match="com.rongyifu.mms.merchant.MenuBean" converter="bean"></convert>        
+        <convert match="com.rongyifu.mms.bean.BatchRefundBean" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.BkAccount" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.PaymentBean" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.DateBlLog" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.TrSeq" converter="bean"></convert>
+        <convert match="com.rongyifu.mms.bean.CgOrder" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.GatesSettleFileForm" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.GateRoute" converter="bean"></convert>
+    	
+    	<convert match="com.rongyifu.mms.bean.AccInfos" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.TrOrders" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.AccSeqs" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.PerInfos" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.UserBkAcc" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.CusInfos" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.AssCus" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.CusContactInfos" converter="bean"></convert>
+    	
+    	<convert match="com.rongyifu.mms.bean.DaiFu" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.DaiFuBean" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.DaiKou" converter="bean"></convert>
+		<convert match="com.rongyifu.mms.bean.DaiKouBean" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.B2EGate" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.TrOrders_Batch" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.OrderInfos" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.OrderInfo" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.VisitIpConfig" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.TransferMoney" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.MerAccount" converter="bean"></convert>  
+    	<convert match="com.rongyifu.mms.bean.BankNoInfo" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.TrDetails" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.MonitorConfig" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.modules.bgservice.SmsSendDailyBean" converter="bean"></convert>   
+    	<convert match="com.rongyifu.mms.dbutil.sqlbean.TlogBean" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.dbutil.sqlbean.extens.TlogBean" converter="bean"></convert>	
+    	<convert match="com.rongyifu.mms.bean.TradeStatistics" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.DfGateRoute" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.DfTransaction" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.service.http.TradeLog" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.DynamicToken" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.QkRisk" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.QkCardInfo" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.QkUser" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.CertManager" converter="bean"></convert>  
+    	<convert match="com.rongyifu.mms.bean.AccSyncDetail" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.MinfoNotice" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.MinfoNoticeSync" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.SettlementDetail" converter="bean"></convert> 
+    	<convert match="com.rongyifu.mms.bean.SettlementSum" converter="bean"></convert>
+    	<convert match="com.rongyifu.mms.bean.OnlineRefund" converter="bean"></convert>  
+	<!-- dwr异常调试 -->
+		<convert match="java.lang.Exception" converter="exception">
+		  <param name='include' value='message,lineNumber'/>
+		</convert>
+
+        
+        
+           
+	</allow>
+<!-- <signatures> 
+  <![CDATA[ 
+     import java.util.List;
+     import org.directwebremoting.io.FileTransfer;
+     import com.rongyifu.mms.service.*;  
+     public FileTransfer downloadXLSFile(List<String[]> , String , String );
+  ]]> 
+</signatures> -->
+</dwr>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="mms3-1.0.1"
+  id="myeclipse.1279078659296"
+  context-root="/mms3"
+  j2ee-spec="6.0"
+  archive="mms3-1.0.1.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

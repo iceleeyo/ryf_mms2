@@ -1,0 +1,1 @@
+keytool -genkey -alias test -keyalg RSA -dname "CN=Test, OU=Engineering Test, O=Shanghai Chinaebi, C=CN" -keypass chinaebi -storepass chinaebi -keystore keystore.p12 -storetype PKCS12 -providerclass org.bouncycastle.jce.provider.BouncyCastleProvider -validity 3650

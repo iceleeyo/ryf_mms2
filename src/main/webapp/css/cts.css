@@ -1,0 +1,35 @@
+
+body{
+	text-align:left;
+	}
+body,td{
+	font-size:12px;
+	}
+.Title{
+	font-size:18px;
+	line-height:30px;
+	font-weight:bolder;
+	text-align:center;
+	}
+.BlueTable , .BlueTable td , .BlueCenterTable , .BlueCenterTable td{
+	border:1px solid #99b3e7;
+	border-collapse:collapse;
+	}
+.BlueCenterTable td{
+	text-align:center;
+	}
+.BlueTable , .BlueCenterTable{
+	width:90%;
+	}
+.ItemTopTitle{
+	text-align:center;
+    background-color:#eaeefb;
+	color:#0b41ad;
+	}
+.ItemLeftTitle{
+	text-align:right;
+    background-color:#eaeefb;
+	color:#0b41ad;
+	}
+	
+	

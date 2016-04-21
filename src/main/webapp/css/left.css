@@ -1,0 +1,54 @@
+<style type="text/css">
+.STYLE8 {font-size: 12px}
+
+.STYLE9 {color: #000066}
+
+body,td{
+	margin-left:2px;
+	margin-top:0px;
+	SCROLLBAR-FACE-COLOR:#ffffff;
+	SCROLLBAR-HIGHLIGHT-COLOR:#eeeeee;
+	SCROLLBAR-SHADOW-COLOR:#eeeeee;
+	SCROLLBAR-3DLIGHT-COLOR:#eeeeee;
+	SCROLLBAR-ARROW-COLOR:#eeeeee;
+	SCROLLBAR-TRACK-COLOR:#eeeeee;
+	SCROLLBAR-DARKSHADOW-COLOR:#eeeeee;
+	SCROLLBAR-BASE-COLOR:#eeeeee;
+}
+
+body {
+	background-image: url(../images/left-bg.jpg);
+}
+
+body,td,th{
+	font-size: 12px;
+	color:#000000;
+		margin-top:0px;
+	margin-left:5px;
+
+}
+
+.STYLE2 {
+	font-family: "宋体";
+	font-size: 12px;
+	color:#000000
+}
+
+.STYLE10{
+	cursor:pointer;
+}
+
+A{color:#000000}
+
+A.bot{font-family:Verdana;font-size:10;color:#FFFFFF;font:900;padding-left:10px;padding-right:10px;text-decoration:none}
+
+A:hover {color:#A6B3BC;} 
+
+.STYLE7 {
+	font-size: 14px;
+	color:#05326a;
+	font-weight: bold;
+	width:171px;
+	height:34px;
+	background-image:url(../images/left_sub_1.gif);
+}

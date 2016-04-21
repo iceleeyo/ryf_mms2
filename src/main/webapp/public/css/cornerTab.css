@@ -1,0 +1,67 @@
+/***************************圆角的**************************************/
+/*选项卡容器*/
+#container
+{
+height:30px;
+}
+/*选项卡的容器*/
+.tabContainer
+{
+height:30px;
+width:100px;
+float:left;
+margin-left:30px;
+background-color:#FFFFFF;
+position:static;
+}
+/*选项卡2B8AD0*/
+.tab
+{
+color:white;
+font:bold 12px "微软雅黑";
+width:100px;
+height:26px;
+background-color:#2B8AD0;
+cursor:pointer;
+}
+
+/*用4个b叠加实现圆角*/
+b
+{
+background-color:#2B8AD0;
+height:1px;
+display:block;
+}
+.b1
+{
+margin:0px 5px;
+width:90px;
+}
+.b2
+{
+margin:0px 3px;
+width:94px;
+}
+.b3
+{
+margin:0px 2px;
+width:96px;
+}
+.b4
+{
+margin:0px 1px;
+width:98px;
+}
+#tab2{
+background-color:#95c7e8;
+height: 25px;
+}
+#tab2Container b{
+background-color:#95c7e8;
+}
+.styleCss1{
+  background-color:#2B8AD0;
+}
+.styleCss2{
+  background-color:#95c7e8;
+}

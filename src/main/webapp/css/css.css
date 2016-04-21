@@ -1,0 +1,113 @@
+th strong {
+    color: #fff;
+}
+td.title {
+	color: #FFFFFF;
+	height:25px;
+	background-color: #2b8ad0;
+	font-family:"微软雅黑", "宋体", Tahoma, Arial;
+	font-weight:bold;
+	font-size:14px;
+}
+td.title2 {
+	background-color:#24fc07;
+	color: #FFF; 
+	font-size:12px;
+}
+td.title1{ background-color:#d6e9f1;}
+td.th1{background-color:#d6eaf1;
+}
+title_text{
+	font-size: 14px;
+	color:#000000;
+}
+
+th {
+	height: 28px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #306bc1;
+	border-bottom-width: 2px;
+	FONT-SIZE:12px;
+	font-family:"微软雅黑", "宋体", Tahoma, Arial;
+	background-color: #76a9e9;
+
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+
+td {
+	FONT-SIZE:12px; LINE-HEIGHT:150%; COLOR: #353535
+}
+
+.spcolor1 {
+	color: #0000FF;
+}
+.spcolor2 {
+	color: ##000033;
+}
+
+a:link {
+	color: #333333; text-decoration: none
+}
+
+a:visited {
+	color: #333333; text-decoration: none
+}
+a:active {
+	color: #333333; text-decoration: none
+}
+
+a:hover {
+	color: #ff0000;  text-decoration: none; position: relative; right: 0px; top: 1px
+}
+
+A:unknown LINK {
+	TEXT-DECORATION: none
+}
+
+
+.tableBorder1 {
+	BORDER-RIGHT: #AAAAE0 1px solid; 
+	BORDER-TOP: #AAAAE0  1px solid; 
+	BORDER-LEFT: #AAAAE0 1px solid; 
+	WIDTH: 100%; 
+	BORDER-BOTTOM: #AAAAE0 1px solid; 
+	border:1px solid #99b3e7;
+	border-collapse:collapse;
+	FONT-SIZE:12px;	
+}
+.tableBorder2 {
+	BORDER-RIGHT: #ffffff 1px solid; 
+	BORDER-TOP: #ffffff  1px solid; 
+	BORDER-LEFT: #ffffff 1px solid; 
+	WIDTH: 100%; 
+	BORDER-BOTTOM: #ffffff 1px solid; 
+	border:0px solid #ffffff;
+	border-collapse:collapse;
+	FONT-SIZE:12px;	
+}
+
+.tableBorder3 {
+	BORDER-RIGHT: #ffffff 1px solid; 
+	BORDER-TOP: #ffffff  1px solid; 
+	BORDER-LEFT: #ffffff 1px solid; 
+	WIDTH: 100%; 
+	BORDER-BOTTOM: #ffffff 1px solid; 
+	border:1px solid #ffffff;
+	border-collapse:collapse;
+	FONT-SIZE:12px;	
+}
+.MyGreyFrame .GreyFrame_Bg { /*GreyFrame庶罩层的样式类*/
+    background-color: gray !important; 
+}
+.MyGreyFrame .GreyFrame_TitleBar { /*GreyFrame标题栏的样式类*/
+    background-color: #2b8ad0 !important; 
+    height:25px;
+    font-family:"微软雅黑", "宋体", Tahoma, Arial;
+    font-weight:bold;
+    font-size:14px;
+}
+

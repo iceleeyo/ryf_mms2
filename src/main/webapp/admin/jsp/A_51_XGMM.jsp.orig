@@ -1,0 +1,105 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" errorPage="../../error.jsp"%>
+<%@ page language="java" import="java.sql.*"%>
+<%@page import="com.rongyifu.mms.bean.LoginUser"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+
+		<title>操作员密码修改</title>
+ <%
+response.setHeader("Pragma","No-cache");
+response.setHeader("Cache-Control","no-cache");
+response.setDateHeader("Expires", 0);
+int rand = new java.util.Random().nextInt(10000);
+%>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="Expires" content="0"/>  
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="../../public/css/head.css?<%=rand %>" rel="stylesheet" type="text/css"/> 		
+		<script type='text/javascript' src='../../dwr/engine.js'></script>
+		<script type='text/javascript' src='../../dwr/util.js'></script>
+		<script type='text/javascript' src='../../dwr/interface/MerchantService.js?<%=rand %>'></script>
+		<script type="text/javascript" src="../../public/js/ryt_util.js?<%=rand%>"></script>
+		<script type="text/javascript" src="../../public/js/md5.js"></script>
+		<script type="text/javascript" src="../../public/js/merchant/admin_search_chang_oper_pass.js?<%=rand%>"></script>
+			
+	</head>
+
+	<body> 
+		<div class="style">
+		<%
+		    LoginUser user = (LoginUser)session.getAttribute(com.rongyifu.mms.web.WebConstants.SESSION_LOGGED_ON_USER);  
+            if(user==null) response.sendRedirect(request.getContextPath()+"/login.jsp");
+			String mid = user.getMid()+"";
+			String uid = user.getOperId()+"";
+			%>
+			<table class="tableBorder" >
+		<tbody>
+			<tr>
+				<td colspan="2" align="left" height="25" class="title">
+							<b><font color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;操作员密码修改 </font> </b>
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="30%" align="right" class="th1">
+							&nbsp;商户号：
+						</td>
+						<td width="70%" align="left">
+							&nbsp;&nbsp;<%=mid %>
+							
+						</td>
+					</tr>
+					<tr>
+						<td width="30%" align="right" class="th1">
+							&nbsp;操作员号：
+						</td>
+						<td width="70%" align="left">
+							&nbsp;
+							<%=uid %>
+							<input type="hidden" id="oper_id" value="<%=uid %>" %/>
+						</td>
+					</tr>
+					<tr>
+						<td width="30%" align="right" class="th1">
+							&nbsp; 原密码：
+						</td>
+						<td width="70%" align="left">
+							&nbsp;
+							<input type="password" id="opass" value="" size="30" maxlength="15"/><font color="red" >（6-15位长度，必须由数字、字母和特殊字符组成）</font>
+						</td>
+					
+					</tr>
+					<tr>
+						<td width="30%" align="right" class="th1">
+							&nbsp; 新密码：
+						</td>
+						<td width="70%" align="left">
+							&nbsp;
+							<input type="password" id="npass" value="" size="30" maxlength="15"/><font color="red" >（6-15位长度，必须由数字、字母和特殊字符组成）</font>
+						</td>
+					</tr>
+						
+					<tr>
+						<td width="30%" align="right" class="th1">
+							&nbsp; 确定新密码：
+						</td>
+						<td width="70%" align="left">
+							&nbsp;
+							<input type="password" id="vnpass" value="" size="30" maxlength="15"/>
+						</td>
+					</tr>
+				
+					<tr>
+						<td colspan="2" height="26px">											
+							<input type="button" style="margin-left: 100px" class="button" value="提  交" onclick=" return edit_pass(<%=mid %>)"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			</div>
+	</body>
+</html>

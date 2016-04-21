@@ -1,0 +1,189 @@
+TD {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px
+}
+.filter_14px {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FILTER: DropShadow(Color=#000000, OffX=1, OffY=1, Positive=yes); COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #000099; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+.default1:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.default1:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.default1:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.default3:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.default3:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.default3:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.default2:visited {
+	TEXT-DECORATION: none
+}
+.default2:link {
+	TEXT-DECORATION: none
+}
+.default2:hover {
+	TEXT-DECORATION: underline
+}
+.px13 {
+	FONT-SIZE: 13px
+}
+.px14 {
+	FONT-SIZE: 14px
+}
+.px18 {
+	FONT-SIZE: 18px
+}
+.px15 {
+	FONT-SIZE: 15px
+}
+.px16 {
+	FONT-SIZE: 16px
+}
+.border_zm1 {
+	BORDER-RIGHT: 1px dotted; BORDER-TOP: 0px dotted; BORDER-LEFT: 0px dotted; BORDER-BOTTOM: 1px dotted
+}
+.product {
+	FONT-SIZE: 12px; COLOR: #cc0000; LINE-HEIGHT: 20px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+.top {
+	COLOR: #2733a2
+}
+.border_table {
+	BORDER-RIGHT: #ffffc9 0px solid; BORDER-TOP: #ffc15f 1px solid; BORDER-LEFT: #ffffc9 0px solid; BORDER-BOTTOM: #ffc15f 1px solid
+}
+.border_blue {
+	BORDER-RIGHT: #335dc3 1px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #335dc3 1px solid; BORDER-BOTTOM: #335dc3 1px solid
+}
+.border_grey {
+	BORDER-RIGHT: #ededed 3px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #ededed 3px solid; BORDER-BOTTOM: #ffffff 0px solid
+}
+.border_zm2 {
+	BORDER-RIGHT: #ffffff 0px dotted; BORDER-TOP: #ffffff 0px dotted; BORDER-LEFT: #ffffff 0px dotted; BORDER-BOTTOM: #dddddd 1px dotted
+}
+.border3 {
+	
+}
+.bordera_zm3 {
+	BORDER-RIGHT: #dddddd 1px dotted; BORDER-TOP: #ffffff 0px dotted; BORDER-LEFT: #ffffff 0px dotted; BORDER-BOTTOM: #ffffff 0px dotted
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.border1 {
+	BORDER-RIGHT: #003399 1px solid; BORDER-TOP: #003399 1px solid; BORDER-LEFT: #003399 1px solid; BORDER-BOTTOM: #003399 1px solid
+}
+.border2 {
+	BORDER-RIGHT: #ff9000 1px solid; BORDER-TOP: #ff9000 1px solid; BORDER-LEFT: #ff9000 1px solid; BORDER-BOTTOM: #ff9000 1px solid
+}
+.bordera0 {
+	BORDER-RIGHT: #666600 1px solid; BORDER-TOP: #666600 1px solid; BORDER-LEFT: #666600 1px solid; BORDER-BOTTOM: #666600 1px solid
+}
+.bordera8 {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid
+}
+.bordera1 {
+	BORDER-RIGHT: #80cbff 1px solid; BORDER-TOP: #80cbff 1px solid; BORDER-LEFT: #80cbff 1px solid; BORDER-BOTTOM: #80cbff 1px solid
+}
+.bordera2 {
+	BORDER-RIGHT: #0066cc 1px solid; BORDER-TOP: #0066cc 1px solid; BORDER-LEFT: #0066cc 1px solid; BORDER-BOTTOM: #0066cc 1px solid
+}
+.bordera3 {
+	BORDER-RIGHT: #660066 1px solid; BORDER-TOP: #660066 1px solid; BORDER-LEFT: #660066 1px solid; BORDER-BOTTOM: #660066 1px solid
+}
+.bordera4 {
+	BORDER-RIGHT: #996633 1px solid; BORDER-TOP: #996633 1px solid; BORDER-LEFT: #996633 1px solid; BORDER-BOTTOM: #996633 1px solid
+}
+.bordera5 {
+	BORDER-RIGHT: #dfdb6c 1px solid; BORDER-TOP: #dfdb6c 1px solid; BORDER-LEFT: #dfdb6c 1px solid; BORDER-BOTTOM: #dfdb6c 1px solid
+}
+.bordera6 {
+	BORDER-RIGHT: #ffcc33 1px solid; BORDER-TOP: #ffcc33 1px solid; BORDER-LEFT: #ffcc33 1px solid; BORDER-BOTTOM: #ffcc33 1px solid
+}
+.bordera7 {
+	BORDER-RIGHT: #cc0000 1px solid; BORDER-TOP: #cc0000 1px solid; BORDER-LEFT: #cc0000 1px solid; BORDER-BOTTOM: #cc0000 1px solid
+}
+.bordera9 {
+	BORDER-RIGHT: #ff3300 1px solid; BORDER-TOP: #ff3300 1px solid; BORDER-LEFT: #ff3300 1px solid; BORDER-BOTTOM: #ff3300 1px solid
+}
+.bordera10 {
+	BORDER-RIGHT: #006600 1px solid; BORDER-TOP: #006600 1px solid; BORDER-LEFT: #006600 1px solid; BORDER-BOTTOM: #006600 1px solid
+}
+.selectCss {
+	FONT-SIZE: 11px; WIDTH: 150px; LINE-HEIGHT: 12px
+}
+.inputCss {
+	FONT-SIZE: 11px
+}
+.leftHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, Sans Serif
+}
+.GoButton {
+	COLOR: #ffffff; FONT-FAMILY: 宋体; BACKGROUND-COLOR: #409f26
+}
+.pageHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #ff6600
+}
+.secHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BORDER-LEFT-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #2d38bd; COLOR: #2d38bd; BORDER-TOP-COLOR: #ffffff; BORDER-RIGHT-COLOR: #ffffff
+}
+.thrHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.remarkFont {
+	FONT-SIZE: 12px; COLOR: #999999
+}
+.warnFont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000
+}
+.secHeadingBack {
+	BACKGROUND: #000000; COLOR: #003399
+}
+.price {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff6600; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+.calendarHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #007f00; FACE: Verdana
+}
+.input {
+	FONT-SIZE: 12px; BACKGROUND: #d1d3d5; COLOR: #000000; LINE-HEIGHT: normal; FONT-FAMILY: "宋体", "Arial"
+}
+.i01 {
+	FONT-SIZE: 12px; BACKGROUND: #ffffff; COLOR: #000000; LINE-HEIGHT: normal; FONT-FAMILY: "宋体", "Arial"
+}
+.i02 {
+	FONT-SIZE: 12px; BACKGROUND: #ffffff; COLOR: #333333; LINE-HEIGHT: 21px; FONT-FAMILY: "宋体", "Arial"
+}
+.tital {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #003399; FONT-FAMILY: "宋体", "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+input,textarea {
+	BORDER-RIGHT: #222222 1px solid; BORDER-TOP: #222222 1px solid; BORDER-LEFT: #222222 1px solid; BORDER-BOTTOM: #222222 1px solid; FONT-FAMILY: "宋体", "Arial"; BACKGROUND-COLOR: #ffffff; margin:1px;
+}
+.taba {
+	FONT-WEIGHT: bold; COLOR: #003366; BACKGROUND-COLOR: #ffffff
+}
+.tabb {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(); COLOR: #ffffff; BACKGROUND-COLOR: #7695bf
+}
+.errorTextStd3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #003399; FONT-FAMILY: "Arial", "Helvetica", "Sans Serif"
+}

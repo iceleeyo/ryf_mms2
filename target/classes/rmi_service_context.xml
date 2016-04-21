@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN"  
+ "http://www.springframework.org/dtd/spring-beans.dtd"> 
+<beans> 
+   
+    <bean name="remote" class="com.rongyifu.mms.rmi.service.RemoteServiceImpl" /> 
+    <bean name="/remoteService"
+        class="org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter"> 
+        <property name="service" ref="remote" /> 
+        <property name="serviceInterface" value="com.rongyifu.mms.rmi.service.IRemoteService" /> 
+    </bean>
+    
+</beans>
